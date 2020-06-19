@@ -1,0 +1,8 @@
+node_modules
+package-lock.json
+yarn.lock
+config.yml
+.idea
+.history
+/.history
+/dist

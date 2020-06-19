@@ -1,0 +1,4 @@
+{
+  "presets": ["@shopify/babel-preset"],
+  "plugins": ["transform-async-to-generator"]
+}

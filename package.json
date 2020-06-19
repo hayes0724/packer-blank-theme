@@ -1,0 +1,36 @@
+{
+  "name": "packer-blank-theme",
+  "version": "1.0.0",
+  "description": "Blank starting point with all the required files to upload to Shopify using Packer",
+  "main": "index.js",
+  "keywords": [
+    "shopify",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hayes0724/packer-blank-theme.git"
+  },
+  "scripts": {
+    "scripts": {
+      "start": "packer start",
+      "watch": "packer start --skipFirstDeploy",
+      "build": "packer build",
+      "deploy": "packer build && slate-tools deploy",
+      "zip": "packer build && slate-tools zip"
+    }
+  },
+  "author": "Hayes Marketing Inc",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@namics/stylelint-bem": "^6.3.1",
+    "@shopify/babel-preset": "^23.1.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "prettier": "^2.0.5",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-shopify": "^7.4.0",
+    "stylelint-scss": "^3.18.0",
+    "stylelint-selector-bem-pattern": "^2.1.0"
+  }
+}

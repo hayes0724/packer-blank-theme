@@ -1,0 +1,17 @@
+{
+  "network": {
+    "ipAddress": null,
+    "external": false,
+    "interface": null
+  },
+  "themes": {
+    "development": {
+      "id": "",
+      "password": "",
+      "store": "",
+      "ignore": [
+        "settings_data.json"
+      ]
+    }
+  }
+}
