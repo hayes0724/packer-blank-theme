@@ -6,3 +6,4 @@ config.yml
 .history
 /.history
 /dist
+/config.json
