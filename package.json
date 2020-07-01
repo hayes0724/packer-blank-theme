@@ -1,6 +1,6 @@
 {
   "name": "packer-blank-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Blank starting point with all the required files to upload to Shopify using Packer",
   "main": "index.js",
   "keywords": [
@@ -12,13 +12,11 @@
     "url": "https://github.com/hayes0724/packer-blank-theme.git"
   },
   "scripts": {
-    "scripts": {
-      "start": "packer start",
-      "watch": "packer start --skipFirstDeploy",
-      "build": "packer build",
-      "deploy": "packer build && slate-tools deploy",
-      "zip": "packer build && slate-tools zip"
-    }
+    "start": "packer start",
+    "watch": "packer start --skipFirstDeploy",
+    "build": "packer build",
+    "deploy": "packer build && slate-tools deploy",
+    "zip": "packer build && slate-tools zip"
   },
   "author": "Hayes Marketing Inc",
   "license": "MIT",
