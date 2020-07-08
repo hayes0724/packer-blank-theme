@@ -15,8 +15,8 @@
     "start": "packer start",
     "watch": "packer start --skipFirstDeploy",
     "build": "packer build",
-    "deploy": "packer build && slate-tools deploy",
-    "zip": "packer build && slate-tools zip"
+    "deploy": "packer deploy",
+    "zip": "packer zip"
   },
   "author": "Hayes Marketing Inc",
   "license": "MIT",
