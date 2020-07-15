@@ -15,8 +15,11 @@
     "start": "packer start",
     "watch": "packer start --skipFirstDeploy",
     "build": "packer build",
-    "deploy": "packer deploy",
-    "zip": "packer zip"
+    "deploy": "packer build && packer deploy",
+    "download": "packer download",
+    "zip": "packer build && packer zip",
+    "lint": "packer lint",
+    "format": "packer format"
   },
   "author": "Hayes Marketing Inc",
   "license": "MIT",
