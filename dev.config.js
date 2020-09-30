@@ -1,3 +1,9 @@
-module.exports = {
+const mergeDev = {
+  module: {
+    rules: [
 
+    ],
+  }
 }
+
+module.exports = mergeDev
