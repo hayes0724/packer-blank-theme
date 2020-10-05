@@ -1,9 +1,6 @@
+// Legacy config file, use for Packer < v1.2.0
+// Packer >= v1.2.0 use packer.config.js and packer.env.json
 {
-  "network": {
-    "ipAddress": null,
-    "external": false,
-    "interface": null
-  },
   "themes": {
     "development": {
       "id": "",
