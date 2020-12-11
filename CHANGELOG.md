@@ -1,3 +1,23 @@
+## [1.0.8](https://github.com/hayes0724/packer-blank-theme/compare/1.0.6...1.0.8) (2020-12-11)
+
+
+### :memo: Documentation
+
+* changelog added ([9130636](https://github.com/hayes0724/packer-blank-theme/commit/913063623cb713b8175d2cbd815dfb48adb3a8fd))
+
+
+### :sparkles: Features
+
+* body class set to template name and suffix ([f995581](https://github.com/hayes0724/packer-blank-theme/commit/f995581441914bb30c19eb8f3da00ab85943ff0d))
+* new config files: `packer.config.js` and `packer.env.json` ([9864655](https://github.com/hayes0724/packer-blank-theme/commit/98646558ee179a4a5e3487affeef3f298be46f04))
+
+
+### chore
+
+* updated ignored files ([f48ce6b](https://github.com/hayes0724/packer-blank-theme/commit/f48ce6bdef046f3b19e9a1ca2214cb49e4d1661e))
+
+
+
 ## [1.0.7](https://github.com/hayes0724/packer-blank-theme/compare/1.0.6...1.0.7) (2020-10-05)
 
 
