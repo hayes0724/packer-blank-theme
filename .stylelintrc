@@ -1,8 +1,6 @@
 {
   "plugins": [
-    "stylelint-selector-bem-pattern",
     "stylelint-scss",
-    "@namics/stylelint-bem"
   ],
   "extends": [
     "stylelint-config-recommended-scss",
@@ -22,18 +20,5 @@
     "no-empty-source": null,
     "no-empty-first-line": true,
     "scss/selector-no-redundant-nesting-selector": true,
-    "plugin/stylelint-bem-namics": {
-      "patternPrefixes": [],
-      "helperPrefixes": []
-    },
-    "plugin/selector-bem-pattern": {
-      "preset": "bem",
-      "componentName": "[A-Z]+",
-      "componentSelectors": {
-        "initial": "^\\.{componentName}(?:-[a-z]+)?$",
-        "combined": "^\\.combined-{componentName}-[a-z]+$"
-      },
-      "utilitySelectors": "^\\.util-[a-z]+$"
-    }
   }
 }

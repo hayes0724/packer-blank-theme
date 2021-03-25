@@ -1,6 +1,6 @@
 {
   "name": "packer-blank-theme",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Blank starting point with all the required files to upload to Shopify using Packer",
   "main": "index.js",
   "keywords": [
@@ -27,24 +27,22 @@
   },
   "author": "Hayes Marketing Inc",
   "license": "MIT",
-  "dependencies": {
-    "eslint-plugin-shopify": "^35.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/plugin-transform-async-to-generator": "^7.10.4",
     "@babel/plugin-transform-runtime": "^7.10.5",
-    "@namics/stylelint-bem": "^6.3.1",
+    "@hayes0724/shopify-packer": "^2.0.4",
     "@shopify/babel-preset": "^23.1.0",
     "cssnano": "^4.1.10",
     "cssnano-preset-advanced": "^4.0.7",
     "cssnano-preset-default": "^4.0.7",
+    "eslint-plugin-shopify": "^35.1.0",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.0.5",
     "stylelint-config-recommended-scss": "^4.2.0",
     "stylelint-config-shopify": "^7.4.0",
-    "stylelint-scss": "^3.18.0",
-    "stylelint-selector-bem-pattern": "^2.1.0"
+    "stylelint-scss": "^3.18.0"
   },
   "changelog": {
     "repo": "@hayes0724/packer-blank-theme",

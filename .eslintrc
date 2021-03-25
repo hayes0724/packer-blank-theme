@@ -4,7 +4,8 @@
     "prettier"
   ],
   "env": {
-    "jest": true
+    "jest": true,
+    "browser": true
   },
   "rules": {
     "babel/no-invalid-this": 0,
