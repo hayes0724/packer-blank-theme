@@ -1,6 +1,6 @@
 {
   "name": "packer-blank-theme",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Blank starting point with all the required files to upload to Shopify using Packer",
   "main": "index.js",
   "keywords": [
