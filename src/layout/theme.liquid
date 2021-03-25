@@ -11,13 +11,13 @@
 
   <meta name="description" content="">
 
-  {% include 'style-tags', layout: 'theme' %}
-  {% include 'script-tags', layout: 'theme' %}
+  {% render 'style-tags', layout: 'theme' %}
+  {% render 'script-tags', layout: 'theme' %}
 
   {{ content_for_header }}
 </head>
 
-<body class="template-{{ template.name }}{%- if template.suffix -%}__{{ template.suffix }}{%- endif -%}">
+<body data-template="{{ template.name }}" data-template-suffix="{{ template.suffix }}">
   {{ content_for_layout }}
 </body>
 </html>
